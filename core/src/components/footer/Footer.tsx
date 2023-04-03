@@ -11,13 +11,13 @@ const Footer = (props: Props) => {
         {/* Top section */}
         <div className={styles.footerTop}>
           {/* Logo */}
-          <h2 className={styles.footerLogo}>Site</h2>
+          <h2 className={styles.footerLogo}>Tom Morbey</h2>
           {/* Links */}
           <div className={styles.footerLinks}>
             {/* Contact info */}
             <div className={styles.footerLinksDiv}>
               <h4>Get in touch</h4>
-              <p>contact@site.com</p>
+              <p>tom.morbey@skater.com</p>
             </div>
             {/* Social media links */}
             <div className={styles.footerLinksDiv}>
