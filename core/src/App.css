@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(black 1px, transparent 0.5px);
+  background-size: 50px 50px;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
