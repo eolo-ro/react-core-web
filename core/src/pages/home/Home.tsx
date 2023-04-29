@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import skate from "/home/eolo/Documents/projects/react-core-web/core/src/assets/skate.png";
+import skate from "/home/eolo/Documents/p/react-core-web/core/src/assets/skate.png";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -36,6 +36,7 @@ const Home = () => {
       <div className={styles.leftContainer}>
         <img src={skate} alt="Skateboard" className={styles.skateImage} />
       </div>
+
       <div className={styles.rightContainer}>
         <h1 className={styles.introText}>Hey I'm Tom Morbey</h1>
         <p ref={txtElement} className={styles.introSubtext}></p>
